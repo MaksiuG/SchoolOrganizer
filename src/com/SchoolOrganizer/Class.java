@@ -6,7 +6,7 @@ public class Class{
     private String name;
     private int numberOfoffice;
     private ArrayList<Students> students = new ArrayList<>();
-    private String parentTeacher;
+    private Teachers parentTeacher;
 
     public void setName(String name) {
         this.name = name;
@@ -19,7 +19,7 @@ public class Class{
     public void setStudents(Students students) {
         this.students.add(students);
     }
-    public void setParentTeacher(String parentTeacher) {
+    public void setParentTeacher(Teachers parentTeacher) {
         this.parentTeacher = parentTeacher;
     }
 
@@ -35,7 +35,7 @@ public class Class{
         return students;
     }
 
-    public String getParentTeacher() {
+    public Teachers getParentTeacher() {
         return parentTeacher;
     }
 }
