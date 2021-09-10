@@ -1,9 +1,11 @@
 package com.SchoolOrganizer;
 
+import java.util.ArrayList;
+
 public class Class{
     private String name;
     private int numberOfoffice;
-    private Students[] students;
+    private ArrayList<Students> students;
     private String parentTeacher;
 
     public void setName(String name) {
@@ -14,8 +16,8 @@ public class Class{
         this.numberOfoffice = numberOfoffice;
     }
 
-    public void setStudents(Students[] students) {
-        this.students = students;
+    public void setStudents(Students students) {
+        this.students.add(students);
     }
     public void setParentTeacher(String parentTeacher) {
         this.parentTeacher = parentTeacher;
@@ -29,7 +31,7 @@ public class Class{
         return numberOfoffice;
     }
 
-    public Students[] getStudents() {
+    public ArrayList<Students> getStudents() {
         return students;
     }
 

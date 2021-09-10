@@ -23,8 +23,8 @@ public class Students extends Class{
         this.dateOfBirth = dateOfBirth;
     }
 
-    public void setTeachers(ArrayList<Teachers> teachers) {
-        this.teachers = teachers;
+    public void setTeachers(Teachers teachers) {
+        this.teachers.add(teachers);
     }
 
     public void setClasss(Class classs) {

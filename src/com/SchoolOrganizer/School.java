@@ -50,11 +50,11 @@ public class School {
         return students;
     }
 
-    public void setTeachers(ArrayList<Teachers> teachers) {
-        this.teachers = teachers;
+    public void setTeachers(Teachers teachers) {
+        this.teachers.add(teachers);
     }
 
-    public void setStudents(ArrayList<Students> students) {
-        this.students = students;
+    public void setStudents(Students students) {
+        this.students.add(students);
     }
 }

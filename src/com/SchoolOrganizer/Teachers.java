@@ -6,6 +6,7 @@ public class Teachers {
     private static int id = 0;
     private String fullName;
     private ArrayList<Class> classes;
+    private String subject;
 
     public Teachers() {
         id++;
@@ -15,8 +16,12 @@ public class Teachers {
         this.fullName = fullName;
     }
 
-    public void setClasses(ArrayList<Class> classes) {
-        this.classes = classes;
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public void setClasses(Class classes) {
+        this.classes.add(classes);
     }
 
     public static int getId() {
