@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class School {
     private String name;
     private String nameOfHeadTeacher;
-    private ArrayList<Teachers> teachers;
-    private ArrayList<Students> students;
+    private ArrayList<Teachers> teachers = new ArrayList<>();
+    private ArrayList<Students> students = new ArrayList<>();
     private String adress;
     private Class[] classes;
 

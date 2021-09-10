@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Teachers {
     private static int id = 0;
     private String fullName;
-    private ArrayList<Class> classes;
+    private ArrayList<Class> classes = new ArrayList<>();
     private String subject;
 
     public Teachers() {

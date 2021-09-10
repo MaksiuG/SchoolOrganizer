@@ -8,22 +8,21 @@ public class Main {
         primarySchoolNr3inCalifornia.setAdress("98 Bourbon Street California");
         primarySchoolNr3inCalifornia.setNameOfHeadTeacher("Ricardo Milos");
 
-        Teachers WadeWilosn = new Teachers();
-        WadeWilosn.setFullName("Wade Wilosn");
-        WadeWilosn.setSubject("PE");
-        
-        Students JanIksiński = new Students();
-        JanIksiński.setFullName("Jan Iksinski");
-        JanIksiński.setDateOfBirth("23-08-2009");
-        JanIksiński.setTeachers(WadeWilosn);
+        Teachers WadeWilson = new Teachers();
+        WadeWilson.setFullName("Wade Wilson");
+        WadeWilson.setSubject("PE");
+
+        Students JanIksinski = new Students();
+        JanIksinski.setFullName("Jan Iksiński");
+        JanIksinski.setDateOfBirth("23-08-2009");
+        JanIksinski.setTeachers(WadeWilson);
 
         Class firstClass = new Class();
         firstClass.setName("1a");
         firstClass.setNumberOfoffice(12);
-        JanIksiński.setClasss(firstClass);
-        firstClass.setStudents(JanIksiński);
-        WadeWilosn.setClasses(firstClass);
-
+        JanIksinski.setClasss(firstClass);
+        firstClass.setStudents(JanIksinski);
+        WadeWilson.setClasses(firstClass);
 
     }
 }

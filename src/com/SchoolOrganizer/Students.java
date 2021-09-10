@@ -7,7 +7,7 @@ public class Students extends Class{
     private static int id = 0;
     private String fullName;
     private String dateOfBirth;
-    private ArrayList<Teachers> teachers;
+    private ArrayList<Teachers> teachers = new ArrayList<>();
     private Class Classs;
 
 
@@ -24,7 +24,7 @@ public class Students extends Class{
     }
 
     public void setTeachers(Teachers teachers) {
-        this.teachers.add(teachers);
+            this.teachers.add(teachers);
     }
 
     public void setClasss(Class classs) {

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Class{
     private String name;
     private int numberOfoffice;
-    private ArrayList<Students> students;
+    private ArrayList<Students> students = new ArrayList<>();
     private String parentTeacher;
 
     public void setName(String name) {
