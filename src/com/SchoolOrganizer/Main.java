@@ -10,7 +10,7 @@ public class Main {
         JanIksiński.setFullName("Jan Iksinski");
         JanIksiński.setDateOfBirth("23-08-2009");
 
-        
+
         Class firstClass = new Class();
         firstClass.setName("1a");
         firstClass.setNumberOfoffice(12);
