@@ -26,8 +26,5 @@ public class Main {
         firstClass.setStudents(JanIksinski);
         WadeWilson.setClasses(firstClass);
         firstClass.setParentTeacher(WadeWilson);
-
-        System.out.println(JanIksinski.getParentTeacher());
-
     }
 }

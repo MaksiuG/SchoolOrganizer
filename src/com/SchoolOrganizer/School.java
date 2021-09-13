@@ -8,7 +8,7 @@ public class School {
     private ArrayList<Teachers> teachers = new ArrayList<>();
     private ArrayList<Students> students = new ArrayList<>();
     private String adress;
-    private Class[] classes;
+    private ArrayList <Class> classes = new ArrayList<>();
 
     public void setName(String name) {
         this.name = name;
@@ -22,7 +22,7 @@ public class School {
         this.adress = adress;
     }
 
-    public void setClasses(Class[] classes) {
+    public void setClasses(ArrayList<Class> classes) {
         this.classes = classes;
     }
 
@@ -38,7 +38,7 @@ public class School {
         return adress;
     }
 
-    public Class[] getClasses() {
+    public ArrayList<Class> getClasses() {
         return classes;
     }
 
